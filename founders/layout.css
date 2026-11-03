@@ -160,5 +160,5 @@
   .founders-page .founders-cta-top { margin-bottom: 34px !important; }
   .founders-page .founders-section-heading { max-width: 550px; }
 }
-.founders-page a.signup-btn { cursor: pointer; text-decoration: none; }
+.founders-page a.signup-btn { color: var(--ink); cursor: pointer; text-decoration: none; }
 .founders-page a.signup-btn:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
