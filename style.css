@@ -26,3 +26,19 @@
 .doc-body .meta{font-size:13px;letter-spacing:.04em}
 .doc-body strong{color:var(--bone);font-weight:700}
 @media(max-width:600px){.contact-q{font-size:19px;margin-bottom:12px}.doc-body h2{font-size:20px}.doc-body p,.doc-body li{font-size:15px}}
+
+/* founders page (FOUNDER-PAGE-PREVIEW, Director-Of-Ops): undeployed preview */
+.founders{display:grid;grid-template-columns:420px 1fr;grid-template-areas:"art top" "art body";column-gap:64px;padding:72px 0 92px;align-items:start}
+.founders-top{grid-area:top;max-width:680px}
+.founders-art-lead{grid-area:art;position:sticky;top:32px}
+.founders-body{grid-area:body}
+.founders-h1{font:400 clamp(40px,4.2vw,60px)/1.12 Georgia,'Times New Roman',serif;letter-spacing:-.035em;margin:0 0 26px;color:var(--bone)}
+.founders-art{margin:0}
+.founders-art img{display:block;width:100%;height:auto;border:1px solid var(--line)}
+.founders-art-second{max-width:360px;margin:36px 0 38px}
+.founders-cta{margin:8px 0 30px!important}
+.founders-cta-top{margin:0 0 34px!important}
+.signup-btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;min-width:200px;padding:0 34px;background:var(--brass);color:var(--ink);font:700 14px/1 Arial,Helvetica,sans-serif;letter-spacing:.2em;cursor:default;user-select:none}
+.founders-sign{color:var(--bone)!important;margin-top:30px!important;line-height:1.6!important}
+@media(max-width:800px){.founders{grid-template-columns:240px 1fr;column-gap:32px}}
+@media(max-width:600px){.founders{display:block;padding:36px 0 56px}.founders-h1{font-size:clamp(30px,8.6vw,40px);margin-bottom:20px}.founders-cta-top{margin-bottom:26px!important}.signup-btn{width:100%}.founders-art-lead{position:static;width:min(72%,260px);margin:0 auto 30px}.founders-art-second{width:min(100%,300px);margin:30px auto 32px}}
